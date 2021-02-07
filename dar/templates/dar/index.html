@@ -8,5 +8,10 @@
 <h1>salem sa7bi ! Jawek behi </h1> <br>
 <a href="/Aboutus">Click here for About us</a> <br>
 <a href="/Contactus">Click here for Contact us</a> <br>
+
+{% for item in simple_pack %}
+<p>{{item.work_type}}</p>
+<p>this task takes {{item.hours}}</p>
+{% endfor %}
 </body>
 </html>
