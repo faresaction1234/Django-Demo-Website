@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aboutus</title>
+</head>
+<body>
+<h1>About us Page</h1>
+<p>The employer's name is: {{Fullname}}</p>
+<p>his age is: {{age}}</p>
+<p>email address is: {{address}}</p>
+<table border="l">
+    <tr>
+        <td>Points </td>
+    </tr>
+    {% for elem in points %}
+    <tr>
+        <td>{{elem}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<p></p>
+</body>
+</html>
